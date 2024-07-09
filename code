@@ -1,0 +1,21 @@
+package core;
+
+public class Array_data {
+	public void data_s() 
+	{
+		//syntax of string
+		String[] data=new String[5];
+		data[0]="selenium";
+		data[1]="java";
+		data[2]="core";
+		data[3]="manual";
+		data[4]="testing";
+		System.out.println("the data is:"+data[1]);	
+	}
+
+	public static void main(String[] args) {
+		Array_data obj=new Array_data();
+		obj.data_s();
+	}
+
+}
